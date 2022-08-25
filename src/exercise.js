@@ -12,6 +12,7 @@ const initialState = {
 
 /* 액션 타입 정의 */
 // 액션 타입은 주로 대문자로 작성합니다.
+// 상수로 지정한 이유는 변경이 쉽고, 오류를 찾기 쉽기때문
 const INCREASE = "INCREASE";
 const DECREASE = "DECREASE";
 const CHANGE_TEXT = "CHANGE_TEXT";

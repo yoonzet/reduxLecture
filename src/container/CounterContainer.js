@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { decrease, increase, setDiff } from "../modules/counter";
-import Counter from "./Counter";
+import Counter from "../components/Counter";
 
 // 컨테이너 컴포넌트 만들기
 

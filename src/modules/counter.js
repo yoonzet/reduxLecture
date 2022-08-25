@@ -11,7 +11,7 @@ export const setDiff = (diff) => ({ type: SET_DIFF, diff });
 export const increase = () => ({ type: INCREASE });
 export const decrease = () => ({ type: DECREASE });
 
-/* 초기 상태 선언 */
+/** 초기 상태 선언 */
 const initialState = {
   number: 0,
   diff: 1,
